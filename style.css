@@ -11,7 +11,7 @@ h1 {
     color: rgb(123, 209, 10);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -24,6 +24,7 @@ section {
 
 .halfwidth img {
     width: 700px;
+
 }
 
 .hirebutton {
@@ -48,4 +49,42 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 5%;
+}
+
+h2 {
+    font-size: 50%;
+}
+
+.center {
+    text-align: left;
+}
+
+.flexible {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+
+}
+
+#babyweb {
+    border-left: 7px solid tomato;
+}
+
+#fullstack {
+    border-left: 7px solid blue;
+}
+
+.Experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 7%;
+
+}
+
+footer p {
+    text-align: center;
 }
